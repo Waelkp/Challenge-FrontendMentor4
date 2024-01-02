@@ -52,34 +52,34 @@ body {
 .two {
   background-color: var(--Verydarkgrayishblue);
 }
-.one head .text p {
+.one .head .text p {
   color: rgb(117, 65, 200 / 50%);
 }
-.one p:last-of-type {
+.one > p:last-of-type {
   color: rgb(117, 65, 200 / 70%);
 }
-.two head .text p {
+.two .head .text p {
   color: hsl(217, 19%, 50%);
 }
-.two p:last-of-type {
+.two > p:last-of-type {
   color: hsl(217, 19%, 70%);
 }
-.three head .text p {
+.three .head .text p {
   color: hsl(0, 0%, 50%);
 }
-.three p:last-of-type {
+.three > p:last-of-type {
   color: hsl(0, 0%, 70%);
 }
-.four head .text p {
+.four .head .text p {
   color: hsl(0, 0%, 50%);
 }
-.four p:last-of-type {
+.four > p:last-of-type {
   color: hsl(p, 0%, 70%);
 }
-.five head .text p {
+.five .head .text p {
   color: hsl(219, 29%, 50%);
 }
-.five p:last-of-type {
+.five > p:last-of-type {
   color: hsl(219, 29%, 70%);
 }
 .three {
