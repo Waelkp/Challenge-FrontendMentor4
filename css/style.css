@@ -132,6 +132,10 @@ body {
   border-radius: 50%;
   border: 1.9px solid white;
 }
+.holder .team .box .head .text {
+  position: relative; 
+  z-index: 2;
+}
 .holder .team .box .head .text p {
   margin-top: 7px;
 }
