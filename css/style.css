@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: white;
+}
+:root {
+  /* Colors */
+  /* ### Primary */
+  --Moderateviolet: rgb(117, 65, 200);
+  --Verydarkgrayishblue: hsl(217, 19%, 35%);
+  --Verydarkblackishblue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  /* ### Neutral */
+  --Lightgray: hsl(0, 0%, 81%);
+  --Lightgrayishblue: hsl(210, 46%, 95%);
+  /* ### Body Copy */
+  --Font-size: 13px;
+}
+/* Note for text colors:
+
+1. "Verified Graduate" has the same color as the person's name with 50% opacity
+2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity */
+/* Starting Development */
+/* Ending Development */
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #ebebeb;
+}
+.holder .team {
+  width: 1600px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  transform: scale(0.9);
+}
+.one {
+  grid-area: 1 / 1 / 1 / 3;
+  background-color: var(--Moderateviolet);
+}
+.two {
+  background-color: var(--Verydarkgrayishblue);
+}
+.three {
+  grid-area: 1 / 4 / 3 / 4;
+  background-color: var(--White);
+  box-shadow: 11px 11px 14px 5px rgba(153, 153, 153, 0.64);
+  color: black;
+}
+.four {
+  background-color: var(--White);
+  box-shadow: 11px 11px 14px 5px rgba(153, 153, 153, 0.64);
+  color: black;
+}
+.five {
+  grid-area: 2 / 2 / 3 / 4;
+  background-color: var(--Verydarkblackishblue);
+}
+@media (max-width: 1350px) {
+  .team {
+    grid-template-columns: 1fr !important;
+  }
+  .one {
+    grid-area: auto;
+  }
+  .three {
+    grid-area: auto;
+  }
+  .five {
+    grid-area: auto;
+  }
+}
+.holder .team .box {
+  position: relative;
+  padding: 40px;
+  border-radius: 6px;
+}
+.holder .team .box > img {
+  position: absolute;
+  top: 0%;
+  right: 16%;
+  height: 155px;
+}
+.holder .team .box .head {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.holder .team .box .head img {
+  height: 55px;
+  border-radius: 50%;
+  border: 1.9px solid white;
+}
+.holder .team .box .head .text p {
+  margin-top: 7px;
+  color: #c098ff;
+}
+.holder .team .box > p:first-of-type {
+  margin: 30px 0px;
+  font-size: 24px;
+  position: relative;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.holder .team .box > p:last-of-type {
+  color: #c098ff;
+  line-height: 1.3;
+  font-size: 17.3px;
+}
