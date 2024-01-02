@@ -134,7 +134,6 @@ body {
 }
 .holder .team .box .head .text p {
   margin-top: 7px;
-  color: #c098ff;
 }
 .holder .team .box > p:first-of-type {
   margin: 30px 0px;
@@ -144,7 +143,6 @@ body {
   line-height: 1.4;
 }
 .holder .team .box > p:last-of-type {
-  color: #c098ff;
   line-height: 1.3;
   font-size: 17.3px;
 }
