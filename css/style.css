@@ -69,19 +69,19 @@ body {
   color: hsl(0, 0%, 50%);
 }
 .three > p:last-of-type {
-  color: hsl(0, 0%, 70%);
+  color: hsl(217, 19%, 60%);
 }
 .holder .team .three > p:first-of-type {
-  color: #94979d;
+  color: hsl(217, 19%, 35%);
 }
 .four .head .text p {
   color: hsl(0, 0%, 50%);
 }
 .four > p:last-of-type {
-  color: hsl(p, 0%, 70%);
+  color: hsl(217, 19%, 60%);
 }
 .holder .team .four > p:first-of-type {
-  color: #94979d;
+  color: hsl(217, 19%, 35%);
 }
 .five .head .text p {
   color: hsl(219, 29%, 50%);
