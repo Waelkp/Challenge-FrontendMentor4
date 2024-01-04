@@ -9,6 +9,7 @@
 }
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(0, 0%, 81%);
   color: white;
 }
 :root {
@@ -53,10 +54,10 @@ body {
   background-color: var(--Verydarkgrayishblue);
 }
 .one .head .text p {
-  color: rgb(117, 65, 200 / 50%);
+  color: rgb(236 242 248 / 50%);
 }
 .one > p:last-of-type {
-  color: rgb(117, 65, 200 / 70%);
+  color: rgb(236 242 248 / 70%);
 }
 .two .head .text p {
   color: hsl(217, 19%, 50%);
@@ -70,11 +71,17 @@ body {
 .three > p:last-of-type {
   color: hsl(0, 0%, 70%);
 }
+.holder .team .three > p:first-of-type {
+  color: #94979d;
+}
 .four .head .text p {
   color: hsl(0, 0%, 50%);
 }
 .four > p:last-of-type {
   color: hsl(p, 0%, 70%);
+}
+.holder .team .four > p:first-of-type {
+  color: #94979d;
 }
 .five .head .text p {
   color: hsl(219, 29%, 50%);
